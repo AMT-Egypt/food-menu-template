@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Playwrite+HU:wght@100..400&display=swap');
+
+.waiting-animation span {
+    opacity: 0;
+    animation: blink 1.5s infinite;
+}
+
+.waiting-animation .span-1 {
+    animation-delay: 0s;
+}
+
+.waiting-animation .span-2 {
+    animation-delay: 0.5s;
+}
+
+.waiting-animation .span-3 {
+    animation-delay: 1s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
